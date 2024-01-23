@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Geologica:wght@100..900&display=swap" rel="stylesheet">
+    <title>NASA Explorer</title>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <div class="logo">NASA</div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="index2.html">Space Weather</a></li>
+                    <li><a href="index3.html">Earth</a></li>
+                    <li><a href="index5.html">Photo Gallery</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <section class="hero-section">
+            <h1>Explore the Universe</h1>
+            <p class="subtext">Discover the wonders of space with NASA</p>
+            <button class="learn-more-btn" id="learnMoreBtn">Learn more</button>
+        </section>
+
+        <section class="apod-section" id="apodSection">
+            <h2>Astronomy Picture of the Day</h2>
+            <div id="apodContent">
+
+            </div>
+        </section>
+
+        <section class="custom-hero-section" id="customHeroSection">
+            <h1>Unleash Your Curiosity</h1>
+            <p id="customIntroText">
+                NASA, the National Aeronautics and Space Administration, is an independent agency of the U.S. federal
+                government dedicated to the exploration of space. With a rich history spanning over six decades, NASA
+                has been at the forefront of scientific discovery, technological innovation, and space exploration. From
+                sending humans to the Moon to launching robotic missions to distant planets, NASA continues to push the
+                boundaries of human knowledge and inspire generations to dream big.
+            </p>
+            <button id="readMoreBtn" onclick="toggleContent()">Read more</button>
+        </section>
+
+        <section class="custom-expanded-content" id="customExpandedContent" style="display: none;">
+            <p>
+                NASA, the powerhouse behind space exploration, has been shaping our cosmic understanding since its
+                launch in 1958. Think of those awe-inspiring Apollo Moon missions and the game-changing space shuttle
+                programs – that's NASA's magic at work. Not just about sending humans to space, they're the brains
+                behind Mars rovers and the lens of the Hubble Space Telescope, showing us the wonders of the universe.
+            </p>
+            <p>
+                But NASA isn't just about rockets and telescopes. They're serious about Earth too. Through
+                groundbreaking research, they're helping us grasp climate changes and understand our own planet better.
+                Ever heard of the International Space Station? Yep, that's NASA too, promoting teamwork in the cosmic
+                neighborhood.
+            </p>
+            <p>
+                What about those Mars missions? Those are NASA's rovers doing their thing, exploring the Red Planet's
+                mysteries. And they're not stopping there. NASA is into cool tech that doesn't just work in space – it
+                makes our lives better on Earth. They're the brains behind innovations touching everything from
+                healthcare to how we chat on our phones.
+            </p>
+            <p>
+                It's not just about science; it's about inspiring us all. With initiatives like the Artemis program
+                aiming to return humans to the Moon, NASA keeps our eyes on the sky and our dreams reaching for the
+                stars. They're not just exploring space; they're inspiring the next generation of scientists, engineers,
+                and all-around explorers. NASA – where science, dreams, and the great unknown collide.
+            </p>
+            <button id="closeBtn" onclick="toggleContent()">Close</button>
+        </section>
+
+        <section class="faq-section">
+            <div class="faq-column">
+                <p class="faq-title">FAQ</p>
+                <p class="common-questions">Common questions</p>
+            </div>
+            <div class="faq-column">
+                <p class="question">What is NASA?</p>
+                <p class="answer">NASA stands for National Aeronautics and Space Administration. It is an independent agency of the U.S. federal government responsible for the nation's civilian space program and for aeronautics and aerospace research.</p>
+    
+                <p class="question">What does NASA do?</p>
+                <p class="answer">NASA's primary goal is to explore space and conduct scientific research. It designs, builds, and launches satellites, probes, and telescopes to study Earth, other planets, and the universe. NASA also develops technologies for space exploration and conducts experiments in microgravity.</p>
+    
+                <p class="question">How can I contact NASA?</p>
+                <p class="answer">You can contact NASA through their official website by visiting <a href="https://www.nasa.gov" target="_blank">www.nasa.gov</a>. They provide various contact options including email addresses, phone numbers, and mailing addresses for different departments and centers.</p>
+    
+                <p class="question">Can I visit NASA facilities?</p>
+                <p class="answer">Yes, NASA has several visitor centers and facilities that are open to the public. These include the Kennedy Space Center Visitor Complex in Florida, Johnson Space Center in Texas, and the Jet Propulsion Laboratory in California. However, it is recommended to check their websites or contact them directly for visitor information and restrictions.</p>
+    
+                <p class="question">How can I stay updated with NASA's latest news and missions?</p>
+                <p class="answer">To stay updated with NASA's latest news, missions, and discoveries, you can visit their official website or follow them on social media platforms such as Twitter, Facebook, Instagram, and YouTube. They also have a newsletter subscription option on their website.</p>
+            </div>
+        </section>
+    
+        <footer>
+            <div class="footer-content">
+                <p>&copy; 2024 NASA Explorer. All rights reserved.</p>
+            </div>
+        </footer>
+        
+    </div>
+    <script src="main.js"></script>
+</body>
+
+</html>

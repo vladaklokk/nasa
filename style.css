@@ -1,0 +1,227 @@
+body {
+    font-family: 'Geologica', sans-serif;
+    margin: 0;
+    background-color: #141A22;
+}
+
+header {
+    background-color: #141A22;
+    color: #FFFFFF;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    margin-left: 10%;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav ul {
+    width: 50%;
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    margin-right: 10%;
+    align-items: center;
+    text-align: center;
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 16px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.hero-section {
+    width: 100%;
+    height: 400px;
+    text-align: center;
+    background-color: #141A22;
+    color: #FFFFFF;
+    padding: 50px 0;
+    border-top: 0.5px white solid;
+}
+
+.hero-section h1 {
+    margin-top: 100px;
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 25px;
+}
+
+.subtext {
+    font-size: 18px;
+    margin-bottom: 30px;
+    font-weight: 200;
+    color: rgb(185, 79, 79);
+}
+
+.learn-more-btn {
+    font-size: 18px;
+    font-weight: bold;
+    background-color: #0077E5;
+    color: #FFFFFF;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.learn-more-btn:hover {
+    background-color: #005999;
+}
+
+.custom-hero-section {
+    width: 97.3%;
+    height: auto;
+    background-color: #141A22;
+    padding: 50px 20px;
+    color: #FFFFFF;
+    text-align: center;
+    border-top: 1px solid white;
+}
+
+.custom-hero-section h1 {
+    font-size: 35px;
+    font-weight: 600;
+}
+
+#customIntroText {
+    font-size: 16px;
+    margin-top: 20px;
+    width: 80%;
+    margin: auto;
+}
+
+.custom-expanded-content {
+    width: 100%;
+    background-color: #141A22;
+    color: #FFFFFF;
+    display: none;
+    text-align: center;
+}
+
+.custom-expanded-content p {
+    font-size: 16px;
+    margin: auto;
+    padding-bottom: 40px;
+    width: 80%;
+}
+
+#readMoreBtn, #closeBtn {
+    font-size: 18px;
+    font-weight: bold;
+    background-color: #0077E5;
+    color: #FFFFFF;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 100px;
+}
+
+#readMoreBtn:hover, #closeBtn:hover {
+    background-color: #005999;
+}
+
+.apod-section {
+    width: 97.3%;
+    border-top: 1px solid white;
+    height: auto;
+    background-color: #141A22;
+    padding: 1px 20px;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.apod-section h2 {
+    font-size: 35px;
+    font-weight: 600;
+    margin-top: 70px;
+}
+
+#apodContent img {
+    max-width: 100%;
+    height: auto;
+    margin: 20px 0;
+    padding-bottom: 20px;
+}
+
+#apodContent p {
+    font-size: 16px;
+    padding-bottom: 70px;
+    width: 80%;
+    margin: auto;
+
+}
+
+footer {
+    background-color: #141A22;
+    color: #FFFFFF;
+    padding: 20px 0;
+    text-align: center;
+    border-top: 1px solid white;
+}
+
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer-content p {
+    font-size: 14px;
+    margin: 0;
+}
+
+.faq-section {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 20px;
+    background-color: #2F3D50;
+    color: #FFFFFF;
+    padding-left: 10%;
+    padding-right: 10%;
+    border-top: 1px white solid;
+}
+
+.faq-column {
+    flex: 1;
+}
+
+.faq-title {
+    font-size: 12px;
+}
+
+.common-questions {
+    font-size: 35px;
+    font-weight: 600;
+}
+
+.question {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.answer {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.answer a {
+    color: #FFFFFF;
+}
